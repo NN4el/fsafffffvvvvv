@@ -72,14 +72,6 @@ local ESPTF = function(PLR, ICON)
 	ESPText.TextSize = 18.000
 	ESPText.TextWrapped = true
 end
---//Notification\\--
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Notification",
-	Text = "This Script Was Made By Psygen" ,
-	Button1 = "Ok",
-	Button2 = "Shut Up",
-	Duration = math.huge
-})
 
 --//Loop\\--
 while task.wait() do
